@@ -1,0 +1,7 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(126, 250, 206);
+  height: 100vh;
+}
+

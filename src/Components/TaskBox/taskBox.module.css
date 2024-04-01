@@ -1,0 +1,12 @@
+.container{
+  display:flex;
+  background-color: rgba(20, 151, 107, 0.437);
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.2rem 2rem
+}
+
+.text{
+  color: aquamarine;
+}
+

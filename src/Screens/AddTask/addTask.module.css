@@ -1,0 +1,29 @@
+.container{
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 10rem;
+  top:0;
+}
+
+.heading{
+  color: green;
+  font-weight: 700;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button{
+  background-color: green;
+}
+
+.button:hover{
+  background-color: rgb(12, 145, 12);
+}
