@@ -20,10 +20,10 @@
   width: 100%;
 }
 
-.button{
+.buton{
   background-color: green;
 }
 
-.button:hover{
+.buton:hover{
   background-color: rgb(12, 145, 12);
 }

@@ -3,10 +3,24 @@
   background-color: rgba(20, 151, 107, 0.437);
   width: 100%;
   border-radius: 0.5rem;
-  padding: 0.2rem 2rem
+  padding: 0.2rem 2rem;
+  flex-direction: column;
 }
 
 .text{
   color: aquamarine;
+}
+
+.completedTask{
+display: flex;
+width:100%;
+flex-direction: column;
+}
+
+.heading{
+  color: aquamarine;
+  font-weight: 600;
+  font-size: large;
+  align-self: center;
 }
 

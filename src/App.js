@@ -1,14 +1,20 @@
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { TaskProvider } from "./context/TaskContext";
 
-import AddTask from './Screens/AddTask/addTask';
-import Home from './Screens/Home/home';
+import AddTask from "./Screens/AddTask/addTask";
+import Home from "./Screens/Home/home";
 
 function App() {
   return (
-    <div className="App">
-      <AddTask />
-      {/* <Home /> */}
-    </div>
+    <TaskProvider>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/add" element={<AddTask />} />
+        </Routes>
+      </div>
+    </TaskProvider>
   );
 }
 

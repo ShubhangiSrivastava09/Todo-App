@@ -18,11 +18,11 @@
   align-self: center;
 }
 
-.button{
+.buton{
   background-color:green;
   width:fit-content
 }
 
-.button:hover{
+.buton:hover{
   background-color: rgb(12, 145, 12);
 }
